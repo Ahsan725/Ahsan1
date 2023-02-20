@@ -3,7 +3,7 @@ const taskInput = document.getElementById('task');
 const dueDateInput = document.getElementById('dueDate');
 const prioritySelect = document.getElementById('priority');
 const tasks = document.getElementById('tasks');
-const audio = new Audio('tada.mp3'); // Replace path-to-sound-file with the actual URL of the sound file
+const audio = new Audio('tada.mp3');
 
 form.addEventListener('submit', addTask);
 
@@ -38,7 +38,7 @@ function toggleDone(e) {
 
   if (task.querySelector('p').classList.contains('done')) {
     task.querySelector('p').innerHTML = `<strike>${task.querySelector('p').textContent}</strike>`;
-    audio.play(); // Play the sound when the task is completed
+    audio.play();
   } else {
     task.querySelector('p').innerHTML = task.querySelector('p').textContent;
     task.querySelector('p').style.backgroundColor = "";
