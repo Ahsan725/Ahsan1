@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Optima";
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     /*background-color: #5A5A5A;*/
     background-image: linear-gradient(to left, #eda6ce , #99bde8);
     /*background-image: linear-gradient(to left, #25a165, #1e89b0);*/
@@ -30,6 +30,7 @@ selection{
 
 h1{
     font-size: 86px;
+    font-weight: 740;
     color: #112f66;
     margin: 30px 0;
     width: 500px;
@@ -91,10 +92,11 @@ input[type="date"] {
     border-radius: 100px;
     justify-content: space-between;
 }
-button [type="submit"]:hover{
-    background-color: #fff;
+button:hover{
+    background-color: #8fc6ff;
     color: #000;
-
+    scale: 115%;
+    font-weight: 600;
 }
 
 option[value=""] {
@@ -163,7 +165,7 @@ li button {
 li button:hover {
     color: #000;
     background-color: #f7534a;
-    scale: 110%;
+    scale: 120%;
 }
 .high {
   background-color: #ff9999;
