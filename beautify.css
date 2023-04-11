@@ -15,8 +15,9 @@ body {
     justify-content: space-around;
     /*background-color: #5A5A5A;*/
     /*background-image: linear-gradient(to left, #eda6ce , #99bde8);*/
-     background-image: url(backcolor.png);
-    background-image: cover;
+    background-image: url(backcolor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     /*background-image: linear-gradient(to left, #25a165, #1e89b0);*/
 }
 
